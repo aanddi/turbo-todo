@@ -1,0 +1,22 @@
+.root {
+   margin-top: 16px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+   .count {
+      background-color: orange;
+      color: black;
+      padding: 20px;
+   }
+
+   .buttons {
+      button {
+         background: green;
+         padding: 15px;
+         margin: 10px;
+         color: white;
+      }
+   }
+}
