@@ -9,7 +9,12 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"] 
+    },
   },
+
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
