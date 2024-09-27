@@ -1,23 +1,4 @@
-.root {
-   margin-top: 16px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-
-   .count {
-      background-color: orange;
-      color: black;
-      padding: 20px;
-   }
-
-   .buttons {
-      button {
-         background: green;
-         padding: 15px;
-         margin: 10px;
-         color: white;
-   
-      }
-   }
-}
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";

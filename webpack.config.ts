@@ -20,6 +20,7 @@ export default (env: EnvVariables) => {
       entry: path.resolve(__dirname, "src", "main.tsx"),
       html: path.resolve(__dirname, "public", "index.html"),
       src: path.resolve(__dirname, "src"),
+      public: path.resolve(__dirname, "public"),
    };
 
    const config: webpack.Configuration = buildWebpack({

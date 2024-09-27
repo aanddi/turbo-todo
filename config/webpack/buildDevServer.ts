@@ -5,6 +5,7 @@ export function buildDevServer(options: BuildOptions) {
    return {
       port: options.port ?? 5000,
       open: true,
-      historyApiFallback: true,
+      historyApiFallback: true, // для работы роутов
+      hot: true,
    };
 }
