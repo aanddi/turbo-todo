@@ -1,0 +1,30 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.page {
+  margin-top: 32px;
+}
+
+.header {
+  border-bottom: 1px solid #dcdbda;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-family: roboto;
+
+
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    .link {
+      font-size: 18px;
+      text-decoration: none;
+      color: #242424;
+    }
+  }
+}

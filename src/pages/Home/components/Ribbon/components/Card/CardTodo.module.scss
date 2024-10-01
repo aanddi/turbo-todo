@@ -1,0 +1,21 @@
+.card {
+  margin-top: 24px;
+  box-shadow: none;
+  border: 1px solid #dbdada;
+  border-radius: 15px;
+  padding: 20px;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+
+    .todo {
+      &.crossed {
+        text-decoration: line-through;
+      }
+    }
+  }
+}

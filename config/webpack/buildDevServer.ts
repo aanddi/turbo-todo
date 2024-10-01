@@ -7,5 +7,6 @@ export function buildDevServer(options: BuildOptions) {
       open: true,
       historyApiFallback: true, // для работы роутов
       hot: true,
+      liveReload: false,
    };
 }
